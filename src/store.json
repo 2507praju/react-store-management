@@ -1,0 +1,49 @@
+{
+  "producat": [
+    {
+      "id": "prod01",
+      "ProdcatName": "cell pen",
+      "prise": 10,
+      "specification": "blue ball pen",
+      "manufacture": "Cell pvlt",
+      "quantity": 300,
+      "inStock": true
+    },
+    {
+      "id": "prod02",
+      "ProdcatName": "keybord",
+      "specification": "normal",
+      "prise": "700",
+      "manufacture": "hp",
+      "quantity": "10",
+      "instock": true
+    },
+    {
+      "id": "prod03",
+      "ProdcatName": "laptop",
+      "specification": "wireless",
+      "prise": "30000",
+      "manufacture": "sony",
+      "quantity": "10",
+      "instock": true
+    },
+    {
+      "id": "prod04",
+      "ProdcatName": "computer",
+      "specification": "normal",
+      "prise": "70000",
+      "manufacture": "sony",
+      "quantity": "45",
+      "instock": true
+    },
+    {
+      "id": "prod05",
+      "ProdcatName": "mobile",
+      "specification": "5g",
+      "prise": "55000",
+      "manufacture": "one plus 11r",
+      "quantity": "10",
+      "instock": true
+    }
+  ]
+}
