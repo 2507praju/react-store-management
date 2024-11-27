@@ -32,6 +32,7 @@ function Viewproucat() {
                     <th>quantity</th>
                     <th>prise</th>
                     <th>inStock</th>
+                    <th>image</th>
                     <th>Action</th>
                 </tr>
             </thead>
@@ -43,7 +44,8 @@ function Viewproucat() {
                     <td>{producat.manufacture}</td>
                     <td>{producat.quantity}</td>
                     <td>{producat.prise}</td>
-                    <td><input type='checkBox' checked={producat.inStock}></input></td>
+                     <td><input type='checkBox' checked={producat.inStock}></input></td>
+                    <td><img src={producat.image} height={50}></img> </td>
                     <td><button className='btn btn-outline-danger' onClick={()=>deleteProducat(producat.id)}><i class="bi bi-trash-fill"></i></button></td>
                     <td><Link className='btn btn-outline-primary' to={`/edit/${producat.id}`} ><i class="bi bi-pencil-square"></i></Link></td>
                 </tr>)

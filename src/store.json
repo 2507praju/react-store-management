@@ -7,7 +7,8 @@
       "specification": "blue ball pen",
       "manufacture": "Cell pvlt",
       "quantity": 300,
-      "inStock": true
+      "inStock": true,
+      "image": "cellopen.jpg"
     },
     {
       "id": "prod02",
@@ -16,7 +17,8 @@
       "prise": "700",
       "manufacture": "hp",
       "quantity": "10",
-      "instock": true
+      "instock": true,
+      "image": "Keybord.jpg"
     },
     {
       "id": "prod03",
@@ -25,7 +27,8 @@
       "prise": "30000",
       "manufacture": "sony",
       "quantity": "10",
-      "instock": true
+      "instock": true,
+      "image": "laptop.jpg"
     },
     {
       "id": "prod04",
@@ -34,7 +37,8 @@
       "prise": "70000",
       "manufacture": "sony",
       "quantity": "45",
-      "instock": true
+      "instock": true,
+      "image": "computer.jpg"
     },
     {
       "id": "prod05",
@@ -43,7 +47,8 @@
       "prise": "55000",
       "manufacture": "one plus 11r",
       "quantity": "10",
-      "instock": true
+      "inStock": true,
+      "image": "mobile.jpg"
     }
   ]
 }
